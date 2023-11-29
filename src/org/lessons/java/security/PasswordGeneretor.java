@@ -17,7 +17,7 @@ public class PasswordGeneretor {
         Scanner scanYear = new Scanner(System.in);
         int year = scanYear.nextInt();
         String password;
-        password = name + surname + favColor +(day + month +year);
+        password = name + surname + favColor +(day + month + year);
         System.out.println(password);
 
     }
